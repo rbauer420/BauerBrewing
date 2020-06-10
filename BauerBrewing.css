@@ -1,0 +1,145 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar */
+
+.logo {
+    height: 15%;
+    width: 10%;
+    margin-right: auto;
+    border-radius: 50%;
+    transition: all .5s ease-in-out;
+}
+
+.logo:hover {
+    transform: rotate(90deg);
+}
+
+li, a, button {
+    font-weight: 500;
+    font-size: 16px;
+    color: #AAA0A0;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%; 
+    background-color: #474853;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #86beD1;
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+/* Main Body */
+
+body { 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    /**background-image: url(carboy.jpg);
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    }
+
+.main-content {
+    color: blue;
+    
+}
+
+.title {
+    width: 500px;
+}
+
+.boxed {
+    box-sizing: content-box;
+    width: 500px;
+    border: 4px solid #844D36;
+}
+
+.about {
+    display: inline;
+}
+
+ .carboy {
+    background-repeat: no-repeat; 
+    background-position: center;
+    width: auto;
+    height: auto;
+    opacity: 70%; 
+} 
+
+
+/**.beer_mug {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+} **/
+
+
+/** Footer **/
+.main-footer {
+    background: #474853;
+    padding: 2em 0;
+    margin-top: 30px;
+    text-align: center;
+    color: #AAA0A0;
+}
+
+/** Media Queries **/
+
+@media only screen and (min-width: 480px) {
+    .carboy {
+        width: 30%;
+    }
+
+}
+
+@media only screen and (min-width: 768px),
+       only screen and (min-width: 700px) and (orientation: landscape) {
+    .carboy {
+        width: 60%;
+        }
+
+}
+
+@media only screen and (min-width: 1140px) {
+
+    .carboy {
+        width: 100%;
+    }
+
+}
