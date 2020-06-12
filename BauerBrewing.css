@@ -31,7 +31,7 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 30px 10%; 
+    padding: 30px 10%;
     background-color: #474853;
 }
 
@@ -64,7 +64,7 @@ button {
 
 /* Main Body */
 
-.body { 
+body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -74,6 +74,21 @@ button {
     color:linen;
     flex: 1;
     justify-content: center;
+    position: relative;
+}
+
+.main-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("carboy.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.8;
 }
 
 .title {
@@ -102,8 +117,8 @@ button {
     size: cover;
     position: absolute;
     max-width: 100%;
-    opacity: 80%; 
-} 
+    opacity: 80%;
+}
 
 
 /**.beer_mug {
@@ -127,7 +142,7 @@ button {
 /** Media Queries **/
 
 @media only screen and (min-width: 480px) {
-   
+
 
 }
 
