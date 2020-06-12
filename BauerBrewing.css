@@ -31,7 +31,7 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 30px 10%; 
+    padding: 30px 10%;
     background-color: #474853;
 }
 
@@ -64,7 +64,11 @@ button {
 
 /* Main Body */
 
+<<<<<<< HEAD
 body { 
+=======
+body {
+>>>>>>> aea7868c223700c3ba0af0e00373858db45065c0
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -74,6 +78,21 @@ body {
     color:linen;
     flex: 1;
     justify-content: center;
+    position: relative;
+}
+
+.main-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url("carboy.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.8;
 }
 
 .title {
@@ -103,8 +122,8 @@ body {
     size: cover;
     position: absolute;
     max-width: 100%;
-    opacity: 80%; 
-} 
+    opacity: 80%;
+}
 
 
 /**.beer_mug {
@@ -128,7 +147,7 @@ body {
 /** Media Queries **/
 
 @media only screen and (min-width: 480px) {
-   
+
 
 }
 
