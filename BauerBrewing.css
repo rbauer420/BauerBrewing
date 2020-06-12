@@ -64,7 +64,7 @@ button {
 
 /* Main Body */
 
-.body { 
+body { 
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -97,6 +97,7 @@ button {
 }
 
  .carboy {
+     z-index: -1;
     background-repeat: no-repeat;
     background-position: center;
     size: cover;
