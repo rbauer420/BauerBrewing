@@ -80,6 +80,7 @@ body {
 .main-content {
     flex: 3;
     position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .main-content::before {
@@ -100,7 +101,7 @@ body {
     position: relative;
     padding-top: 30px;
     padding-left: 30px;
-    color:linen;
+    color:lightskyblue;
     text-shadow: 4px 4px 5px black;
 }
 
@@ -108,7 +109,7 @@ body {
     position: relative;
     box-sizing: content-box;
     color:linen;
-    border: 4px solid #412b15;
+    border: 4px solid saddlebrown;
     text-shadow: 4px 4px 5px black;
 }
 
@@ -123,7 +124,7 @@ body {
     align-self: flex-end;
     padding-right: 1em;
     padding-left: 1em; 
-    color: lightyellow;
+    color: gold;
     text-shadow: 4px 4px 5px black;
 }
 
@@ -132,7 +133,7 @@ body {
     flex: 65%;
     padding-right: 1em;
     padding-left: 1em;
-    color: lightyellow;
+    color: gold;
     text-shadow: 5px 5px 6px black;
 }
 
@@ -156,7 +157,9 @@ body {
 
 /** Homebrewing 101 Body **/
 .title101 {
-    color: cadetblue;
+    color: linen;
+    text-align: center;
+    flex-direction: column;
 }
 
 .homeBrewing101 {
@@ -164,27 +167,119 @@ body {
     flex-direction: column;
     min-height: 100vh;
     line-height: 1.6;
-    background-color: burlywood;
-}
-
-.holdingBottle {
+    background-image: url(chalkboard.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
+    font-family: 'Schoolbell', cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title101 {
+    padding-bottom: 15px;
+}
+
+.slide {
+    display: flex;
+    border: 10px solid ivory;
+    align-self: center;
+    
 }
 
 /** Homebrewing Calculator **/
-.calcTitle {
-    color: cadetblue;
-}
-
 .calcContent {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     line-height: 1.6;
-    background-color: burlywood;
+    background-image: linear-gradient(#d4af37, #3d0c02);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
 }
 
+.SGtoBCTitle {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    color: lightskyblue;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+}
+
+.aboutTable{
+    font-size: large;
+    padding: 15px;
+}
+
+table {
+    display: flex;
+    border-collapse: collapse;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    box-sizing: content-box;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+table th {
+    text-align: center;
+    background-color: lightskyblue;
+    color: linen;
+    padding: 4px 4px;
+    border: 3px solid gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+
+table td {
+    border: 3px solid gray;
+    padding: 4px 4px;
+}
+
+table tr:nth-child(odd) td {
+    background-color: #e7edf0;
+}
+
+table tr:nth-child(even) td {
+    background-color:   #E0E0E0;
+}
+
+.calcTitle {
+    text-align: center;
+    color: lightskyblue;
+    text-shadow: 2px 2px 4px gold;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+form {
+    text-align: center;
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border-radius: 8px;      
+}
+
+select {
+    padding: 6px;
+    height: 50px;
+    border-radius: 2px;
+  }
+
+  fieldset {
+    margin-bottom: 30px;
+    border: none;
+  }
+
+  .OGheader 
+  .headerFG {
+    /**display: block;
+    flex-wrap: nowrap;
+    margin-bottom: 8px; 
+    text-shadow: 1px 1px 2px whitesmoke;**/
+    color: gold; 
+  }
+
+  button {
+     margin-bottom: 10px;
+     margin-top: 10px;
+ }
+ 
 
 /** Footer **/
 .main-footer {
@@ -192,6 +287,7 @@ body {
     background: #474853;
     padding: 2em 0;
     margin-top: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     color: #AAA0A0;
 }
