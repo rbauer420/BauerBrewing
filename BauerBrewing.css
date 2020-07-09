@@ -180,10 +180,36 @@ body {
 
 .slide {
     display: flex;
-    border: 10px solid ivory;
+    border: 15px solid whitesmoke;
     align-self: center;
-    
 }
+.Steps {
+    color: linen;
+    text-align: center;
+    font-family: 'Schoolbell', cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.article {
+    color: linen;
+    font-family: 'Schoolbell', cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.howTo
+li {
+    color: linen;
+    font-family: 'Schoolbell', cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    margin-left: 70px;
+}
+
+.howTo {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
 
 /** Homebrewing Calculator **/
 .calcContent {
