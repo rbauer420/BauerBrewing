@@ -67,7 +67,7 @@ This page has a linear-gradient background from gold to dark brown.
 The top element on this page is an ABV Calculator. The user enters an Original Gravity (between 1.001 and 1.100 SG) and a Final Gravity (between 1.001 and 1.100 SG) and
 then toggles the "Calculate ABV" button,the JS function will complete the following math funtion ABV = 131.25(OG-FG) and provice the user with an ABV value.
 
-If the user enters a value less than 1.001 or greater than 1.100 SG the form will reset and not calculate an ABV
+If the user enters a non-numeric value, the form will not calculate an ABV.
 
 Below the Homebrewing Calculator, there is a table listing a Specific Gravity value and its corresponding Brix value. 
 Every nth-child(odd) has a color value of #e7edf0
