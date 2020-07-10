@@ -39,20 +39,18 @@
         </h1>
         
         <fieldset>
-            <p class="headerOG">Original Gravity (between 1.001 and 1.100 Bx)</p>
+            <p class="headerOG">Original Gravity (between 1.001 and 1.100 SG)</p>
             <input id="OG" type="text" id="OG" name="user_OG"></input>
     
-            <p class="headerFG">Final Gravity (between 1.001 and 1.100 Bx)</p>
+            <p class="headerFG">Final Gravity (between 1.001 and 1.100 SG)</p>
             <input id="FG" type="text" id="FG" name="user_FG"></input><br>
         </fieldset>
-        <button onclick="calculate ()">Calculate ABV</button>
+        <button onclick="calculate (event)">Calculate ABV</button>
         
-        <h1 id="yourABV"></h1>
+        <h3 id="yourABV"></h3>
        
-        <!--- 
-        <button class="reset" value="reset">Reset</button>
-        <button class="calculate" onclick="calculate()">Calculate ABV</button>
-        /> -->
+        <h5>If you enter a value less than 1.001 or greater than 1.100 SG the form will reset and not calculate an ABV</h5>
+
         <script src="BauerBrewing.js"></script>
 
         </form>
