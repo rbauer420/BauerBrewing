@@ -32,6 +32,32 @@
 
 <script src="BauerBrewing.js"></script>
 
+
+    <form action="calculator.html" method="post">
+        <h1 class= "calcTitle">    
+            Homebrewing Calculator
+        </h1>
+        
+        <fieldset>
+            <p class="headerOG">Original Gravity (between 1.001 and 1.100 Bx)</p>
+            <input id="OG" type="text" id="OG" name="user_OG"></input>
+    
+            <p class="headerFG">Final Gravity (between 1.001 and 1.100 Bx)</p>
+            <input id="FG" type="text" id="FG" name="user_FG"></input><br>
+        </fieldset>
+        <button onclick="calculate ()">Calculate ABV</button>
+        
+        <h1 id="yourABV"></h1>
+       
+        <!--- 
+        <button class="reset" value="reset">Reset</button>
+        <button class="calculate" onclick="calculate()">Calculate ABV</button>
+        /> -->
+        <script src="BauerBrewing.js"></script>
+
+        </form>
+
+
     <h1 class="SGtoBCTitle" style= "display: inline;">
         Specific Gravity to Brix Conversion Table
     </h1>
@@ -454,23 +480,6 @@
         </tr>
         
     </table> 
-
-    <form action="calculator.html" method="post">
-        <h1 class= "calcTitle">    
-            Homebrewing Calculator
-        </h1>
-        
-        <fieldset>
-            <input id="OG" type="number" id="OG" name="user_OG"> <p class="OGheader"> Original Gravity (between 1.001 and 1.100 Bx)</p></input>
-    
-            <input id="FG" type="number" id="FG" name="user_FG"> <p class="headerFG">Final Gravity (between 1.001 and 1.100 Bx)</p></input><br>
-        </fieldset>
-        
-       
-        <button class="reset" value="reset">Reset</button>
-        <button class="submit" value="submit">Calculate ABV</button>
-        </form>
-
 </div>
 
 
