@@ -32,31 +32,31 @@ ABV = 132.715(OG-FG) or (OG-FG)/.00753 **/
 
 var OG;
 var FG;
-var ABV;
+var yourABV;
 
 function calculate(event) {
     event.preventDefault(); 
     var field1=document.getElementById('OG') .value;
     var field2=document.getElementById('FG') .value;
-    
+
     var result=(parseFloat(field1)-parseFloat(field2))*131.25;
 
 if(!isNaN(result))
 {
-    document.getElementById("yourABV").innerHTML="Your ABV is "+result;
+     document.getElementById("yourABV").innerHTML="Your ABV is "+result;
 }
 
-}
-
-function calculate() {
-    if(OG < 1 || OG > 1.101 || FG < 1 || FG > 1.101) {
-        alert('Invalid OG or FG. Please enter values between 1.001 and 1.100 Bx');
-        return;
-    }
 }
 
 /**function calculate() {
-    if(isNaN(OG) || isNaN(FG)) {
+        if(isNaN(OG) || isNaN(FG)) {
+            alert('Invalid OG or FG. Please enter values between 1.001 and 1.100 Bx');
+            return;
+        }
+}
+
+function calculate(event) {
+    if(OG < 1 || OG > 1.101 || FG < 1 || FG > 1.101) {
         alert('Invalid OG or FG. Please enter values between 1.001 and 1.100 Bx');
         return;
     }
