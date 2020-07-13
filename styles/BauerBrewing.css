@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     box-sizing: border-box;
 }
 
@@ -225,6 +225,10 @@ li {
     line-height: 1.6;
     background-image: linear-gradient(#d4af37, #3d0c02);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+
+.calcButton {
+    color: white;
 }
 
 .calcTitle {
