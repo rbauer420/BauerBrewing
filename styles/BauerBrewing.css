@@ -87,7 +87,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     line-height: 1.6;
-    }
+}
 
 .main-content {
     flex: 3;
@@ -112,16 +112,15 @@ body {
     position: relative;
     padding-top: 30px;
     padding-left: 30px;
+    text-align: center;
     color:lightskyblue;
     text-shadow: 4px 4px 5px black;
 }
 
 .boxed {
-    position: relative;
     box-sizing: content-box;
     color:linen;
     border: 4px solid saddlebrown;
-    text-shadow: 4px 4px 5px black;
 }
 
 .row {
@@ -351,8 +350,7 @@ table tr:nth-child(even) td {
         visibility: visible;
     }
 
-    .title
-    .boxed {
+    .title{
         display: flex;
         flex-direction: column;
     }
