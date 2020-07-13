@@ -4,11 +4,11 @@ var i = 0;
 var images = [];
 var time = 3000;
 
-images[0] = '../imgs/ingredients.jpg';
-images[1] = '../imgs/mashIn.jpg';
-images[2] = '../imgs/refract.jpg';
-images[3] = '../imgs/fridge.jpg';
-images[4] = '../imgs/pbBlossoms.jpg';
+images[0] = './imgs/ingredients.jpg';
+images[1] = './imgs/mashIn.jpg';
+images[2] = './imgs/refract.jpg';
+images[3] = './imgs/fridge.jpg';
+images[4] = './imgs/pbBlossoms.jpg';
 
 function changeImg(){
     document.slide.src = images[i];
