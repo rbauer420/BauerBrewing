@@ -86,7 +86,6 @@ body {
 .main-content {
     flex: 3;
     position: relative;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .main-content::before {
@@ -177,7 +176,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    font-family: 'Schoolbell', cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .title101 {
@@ -192,22 +190,19 @@ body {
 .Steps {
     color: linen;
     text-align: center;
-    font-family: 'Schoolbell', cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-top: 20px;
     text-align: center;
 }
 
 .article {
     color: linen;
-    font-family: 'Schoolbell', cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 50px;
     margin-right: 50px;
 }
 
 .howTo
 li {
-    color: linen;
-    font-family: 'Schoolbell', cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: linen; 
     margin-left: 70px;
 }
 
@@ -223,8 +218,7 @@ li {
     flex-direction: column;
     min-height: 100vh;
     line-height: 1.6;
-    background-image: linear-gradient(#d4af37, #3d0c02);
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;   
+    background-image: linear-gradient(#d4af37, #3d0c02);   
 }
 
 .calcButton {
@@ -251,20 +245,19 @@ select {
     padding: 6px;
     height: 50px;
     border-radius: 2px;
-  }
+}
 
-  fieldset {
+fieldset {
     margin-bottom: 30px;
     border: none;
-  }
+}
 
-  button {
+button {
      margin-bottom: 10px;
      margin-top: 10px;
- }
+}
 
-.SGtoBCTitle {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+.SGtoBCTitle {   
     color: lightskyblue;
     text-shadow: 2px 2px 4px black;
     text-align: center;
@@ -278,8 +271,7 @@ select {
 
 table {
     display: flex;
-    border-collapse: collapse;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    border-collapse: collapse;  
     box-sizing: content-box;
     justify-content: center;
     padding-top: 20px;
@@ -291,8 +283,7 @@ table th {
     background-color: lightskyblue;
     color: linen;
     padding: 4px 4px;
-    border: 3px solid gray;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    border: 3px solid gray;   
 }
 
 table td {
@@ -308,14 +299,12 @@ table tr:nth-child(even) td {
     background-color:   #E0E0E0;
 }
  
-
 /** Footer **/
 .main-footer {
     position: relative;
     background: #474853;
     padding: 2em 0;
     margin-top: auto;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     color: #AAA0A0;
 }
@@ -326,7 +315,7 @@ table tr:nth-child(even) td {
     .logo
     .main-header
     .nav_links {
-       display: flex;
+       /* display: flex; */
        align-items: center;
     }
     
@@ -392,7 +381,7 @@ table tr:nth-child(even) td {
         flex-direction: row;
     }
 
-    }
+}
     
 /**@media only screen and (min-width: 1140px) {
 
