@@ -3,8 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    /*font-family: 'Gill Sans', "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;*/
-    font-family: 'Schoolbell', cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     box-sizing: border-box;
 }
 
@@ -180,6 +179,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    font-family: 'Schoolbell', cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .title101 {
@@ -197,18 +197,21 @@ body {
     text-align: center;
     padding-top: 20px;
     text-align: center;
+    font-family: 'Schoolbell', cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .article {
     color: linen;
     margin-left: 50px;
     margin-right: 50px;
+    font-family: 'Schoolbell', cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .howTo
 li {
     color: linen; 
     margin-left: 70px;
+    font-family: 'Schoolbell', cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .howTo {
