@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     box-sizing: border-box;
 }
 
@@ -24,6 +25,12 @@ li, a, button {
     font-size: 16px;
     color: #AAA0A0;
     text-decoration: none;
+}
+
+.isDisabled 
+{
+    cursor: not-allowed;
+    opacity: 0.5;
 }
 
 .main-header {
@@ -68,6 +75,10 @@ button {
     cursor: pointer;
 }
 
+#contactButton{
+    color: white;
+}
+
 /** Homepage Body **/
 
 body {
@@ -75,12 +86,11 @@ body {
     flex-direction: column;
     min-height: 100vh;
     line-height: 1.6;
-    }
+}
 
 .main-content {
     flex: 3;
     position: relative;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .main-content::before {
@@ -90,7 +100,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    background-image: url("carboy.jpg");
+    background-image: url("../imgs/carboy.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -101,16 +111,15 @@ body {
     position: relative;
     padding-top: 30px;
     padding-left: 30px;
+    text-align: center;
     color:lightskyblue;
     text-shadow: 4px 4px 5px black;
 }
 
 .boxed {
-    position: relative;
     box-sizing: content-box;
     color:linen;
     border: 4px solid saddlebrown;
-    text-shadow: 4px 4px 5px black;
 }
 
 .row {
@@ -137,7 +146,7 @@ body {
     text-shadow: 5px 5px 6px black;
 }
 
- .carboy {
+.carboy {
     z-index: -1;
     background-repeat: no-repeat;
     background-position: center;
@@ -146,7 +155,6 @@ body {
     max-width: 100%;
     opacity: 80%;
 }
-
 
 /**.beer_mug {
     display: flex;
@@ -160,6 +168,7 @@ body {
     color: linen;
     text-align: center;
     flex-direction: column;
+    font-family: 'Schoolbell', cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .homeBrewing101 {
@@ -167,7 +176,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     line-height: 1.6;
-    background-image: url(chalkboard.jpg);
+    background-image: url(../imgs/chalkboard.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -183,26 +192,27 @@ body {
     border: 15px solid whitesmoke;
     align-self: center;
 }
+
 .Steps {
     color: linen;
     text-align: center;
-    font-family: 'Schoolbell', cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-top: 20px;
     text-align: center;
+    font-family: 'Schoolbell', cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .article {
     color: linen;
-    font-family: 'Schoolbell', cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 50px;
     margin-right: 50px;
+    font-family: 'Schoolbell', cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .howTo
 li {
-    color: linen;
-    font-family: 'Schoolbell', cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    color: linen; 
     margin-left: 70px;
+    font-family: 'Schoolbell', cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .howTo {
@@ -217,8 +227,11 @@ li {
     flex-direction: column;
     min-height: 100vh;
     line-height: 1.6;
-    background-image: linear-gradient(#d4af37, #3d0c02);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    background-image: linear-gradient(#d4af37, #3d0c02);   
+}
+
+.calcButton {
+    color: white;
 }
 
 .calcTitle {
@@ -241,20 +254,19 @@ select {
     padding: 6px;
     height: 50px;
     border-radius: 2px;
-  }
+}
 
-  fieldset {
+fieldset {
     margin-bottom: 30px;
     border: none;
-  }
+}
 
-  button {
+button {
      margin-bottom: 10px;
      margin-top: 10px;
- }
+}
 
-.SGtoBCTitle {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+.SGtoBCTitle {   
     color: lightskyblue;
     text-shadow: 2px 2px 4px black;
     text-align: center;
@@ -268,8 +280,7 @@ select {
 
 table {
     display: flex;
-    border-collapse: collapse;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    border-collapse: collapse;  
     box-sizing: content-box;
     justify-content: center;
     padding-top: 20px;
@@ -281,8 +292,7 @@ table th {
     background-color: lightskyblue;
     color: linen;
     padding: 4px 4px;
-    border: 3px solid gray;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+    border: 3px solid gray;   
 }
 
 table td {
@@ -298,14 +308,12 @@ table tr:nth-child(even) td {
     background-color:   #E0E0E0;
 }
  
-
 /** Footer **/
 .main-footer {
     position: relative;
     background: #474853;
     padding: 2em 0;
     margin-top: auto;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     color: #AAA0A0;
 }
@@ -316,7 +324,7 @@ table tr:nth-child(even) td {
     .logo
     .main-header
     .nav_links {
-       display: flex;
+       /* display: flex; */
        align-items: center;
     }
     
@@ -346,8 +354,7 @@ table tr:nth-child(even) td {
         visibility: visible;
     }
 
-    .title
-    .boxed {
+    .title{
         display: flex;
         flex-direction: column;
     }
@@ -382,7 +389,7 @@ table tr:nth-child(even) td {
         flex-direction: row;
     }
 
-    }
+}
     
 /**@media only screen and (min-width: 1140px) {
 
