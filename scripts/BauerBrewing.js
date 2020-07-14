@@ -36,7 +36,7 @@ function calculate(event) {
     var field2=document.getElementById('FG') .value;
     var OG=parseFloat(field1)
     var FG=parseFloat(field2)
-    var result=(OG-FG)*131.25;
+    var result=((OG-FG)*131.25)-1.040;
 
     if(OG < 1 || OG > 1.101 || FG < 1 || FG > 1.101) {
         alert('Invalid OG or FG. Please enter values between 1.001 and 1.100 Bx');
