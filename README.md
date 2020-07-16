@@ -50,7 +50,7 @@ Images: logo.jpg, chalkboard.jpg, ingredients.jpg, mashIn.jpg, refract.jpg, frid
 This page features an imported Google font (schoolhouse). 
 
 Below the header is a slideshow of five images that switches automatically and restarts using JavaScript. There is a white border around the slideshow that does not
-change. 
+change. As the browser reduces in size, the image slideshow gets smaller relative to the size of the screen. 
 
 Under the slideshow there are two articiles that remain stacked on top of one another irregardless of the screen size.
 In the second article there is an ordered list. 
