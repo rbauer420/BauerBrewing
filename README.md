@@ -43,6 +43,7 @@ As the screen gets smaller, the porportion between the first column and the seco
 Once the screen reaches a max of 500px, the colums collapse and the content is stacked on top of each other. 
 
 ***Contact Page***
+
 See files: form.html, BauerBrewing.css and BauerBrewing.js
 
 This page contains the contact form for the site and includes JS validation. 
