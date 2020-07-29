@@ -12,7 +12,7 @@ No additional software or extensions need to be downloaded to use the site
 
 
 ***Header***
-Hovering the mouse over the logo will spin the image clock-wise, 90 degrees
+Hovering the mouse over the logo will spin the image counter clock-wise, 90 degrees
 Hovering the mouse over each of the navigation links with change the color of the text from whitesmoke to clue and the mouse will turn into a pointer.
 Hovering the mouse over the contact button will also trun the mouse into a pointer
 
@@ -42,6 +42,18 @@ There are two columns with text, one is about the website and the other is a par
 As the screen gets smaller, the porportion between the first column and the second column stays the same. 
 Once the screen reaches a max of 500px, the colums collapse and the content is stacked on top of each other. 
 
+***Contact Page***
+See files: form.html, BauerBrewing.css and BauerBrewing.js
+
+This page contains the contact form for the site and includes JS validation. 
+
+If the user enters a name less than five characters, a red, error message will display under the header saying, "Please Enter a Valid Name". 
+
+If the user enters an email without a "@" or the email less than six characters, a red, error message will display under the header saying, "Please Enter a Valid Email". 
+
+If the user enters a message less than ten characters, a red, error message will display under the header saying, "Please Enter More Than 10 Characters in Your Message". 
+
+If the user enters everything according to the validation, the form will submit and an alert will post saying, "Your contact form was submitted successfully! I will respond as soon as possible!" 
 
 ***Homebrewing 101 Page***
 See files: homeBrewing101.html, BauerBrewing.css and BauerBrewing.js
