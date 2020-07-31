@@ -2,6 +2,7 @@
 Homebrewing in Small Spaces 
 
 ***About Website***
+
 This is a website that is dedicated to users new to homebrewing as well as users with limited space to brew in. 
 
 It offers articles on homebrewing, basic steps to homebrewing, an ABV calculator, a SG to Brix table and a contact form.
@@ -12,6 +13,7 @@ No additional software or extensions need to be downloaded to use the site
 
 
 ***Header***
+
 Hovering the mouse over the logo will spin the image counter clock-wise, 90 degrees
 Hovering the mouse over each of the navigation links with change the color of the text from whitesmoke to clue and the mouse will turn into a pointer.
 Hovering the mouse over the contact button will also turn the mouse into a pointer
@@ -57,6 +59,7 @@ If the user enters a message less than ten characters, a red, error message will
 If the user enters everything according to the validation, the form will submit and an alert will post saying, "Your contact form was submitted successfully! I will respond as soon as possible!" 
 
 ***Homebrewing 101 Page***
+
 See files: homeBrewing101.html, BauerBrewing.css and BauerBrewing.js
 Images: logo.jpg, chalkboard.jpg, ingredients.jpg, mashIn.jpg, refract.jpg, fridge.jpg and pbBlossoms.jpg
 
@@ -71,6 +74,7 @@ In the second article there is an ordered list.
 
 
 ***ABV Calculator Page***
+
 See files: calculator.html, BauerBrewing.css and BauerBrewing.js
 Images: logo.jpg
 
